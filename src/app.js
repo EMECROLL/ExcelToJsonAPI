@@ -8,6 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/excel", excelRoutes);
+app.use("/api", excelRoutes);
 
 module.exports = app;
